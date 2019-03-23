@@ -1,23 +1,357 @@
----
-layout: default
----
+<!DOCTYPE html>
+<htm>
+	<head>
+		<title>
+			M.Kadir | Portfolio
+		</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="C:\Users\ABD QADIR\Desktop\GitHub\abdqadir.github.io\portfolioStyle.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Josefin+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+		<script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+		<script  type="text/javascript" src="C:\Users\ABD QADIR\Desktop\GitHub\abdqadir.github.io\portfolioScript.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script  type="text/javascript" src="C:\Users\ABD QADIR\Desktop\GitHub\abdqadir.github.io\particles.min.js"></script>
+	</head>
+	<body>
+		<nav id="navbar">
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+			<a href="#welcome-section">
+			  <img id="logo" src="https://github.com/AbdQadir/abdqadir.github.io/blob/master/logo-preview-748b88bd-0fb2-4862-9994-93022fa501f3.jpg?raw=true" alt="Kadir's Logo">
+			  
+			</a>
+		  
+			<ul style="list-style:none" id="nav-list">
+			  <li><a class="nav-link" href="#welcome-section">Home</a></li>
+			  <li><a class="nav-link" href="#about">About</a></li>
+			  <li><a class="nav-link" href="#projects">Projects</a></li>
+			  <li><a class="nav-link" href="#contact">Contact</a></li>
+			</ul>
+		  </nav>
+		  <main>
+			<section class="main-section" id="welcome-section">
+			  <section id="particles-js"></section>
+			  <section id="intro-content">
+				<div id="intro-content-wrapper">
+				  <h1>Abd. Qadir</h1>
+				  <p>Front-end web developer</p>
+				</div>
+				
+			  </section>
+			</section>
+			
+			<section class="main-section" id="about">
+			  <header class="section-header">
+				<h2 class="section-title">About</h2>
+			  </header>
+			  <section id="about-wrapper">
+			  
+				<article id="introduction">
+				  
+				  <h2 id="introduction-heading">Hi, beautiful people!</h2>
+				  <p id="introduction-paragraph">
+					I am Abd. Qadir, a self taught front-end web developer from Nepal, currently living in Qatar. I am equipped with <strong>state of the art front end tech skills</strong> actively seeking out new technologies to stay up-to-date on trends and advancements. Building <strong>responsive</strong>, <strong>user-friendly</strong>, and <strong>well designed</strong> websites and applications is truly a passion of mine.
+				  </p>
+				  <h2>Have a look at some of my work below.<h3>
+				</article>
+				<!--
+				<article>
+				  <div></div>
+				  <div id="main-frame"></div>
+				</article>-->
+		  
+			  </section>
+			</section>
+			
+			<section class="main-section" id="projects">
+			  
+			  <header class="section-header">
+				<h2 class="section-title">Projects</h2>
+			  </header>
+			  <section id="projects-grid">
+				<a class="project-link" href="https://codepen.io/AbdQadir/pen/qJJOOG?editors=1100" target="_blank">
+				  <figure class="project-tile">
+					<div class="img-wrapper">
+					  <img src="https://github.com/AbdQadir/abd-qadir.github.io/blob/94645a63e7d131c7293a8c05b1683c658d77e4d6/Shahjahan's%20momo%20landing%20page.png?raw=true" alt="Shahjahan's mo:mo: landing page project image">
+					</div>
+		  
+					<figcaption class="project-title">Product Landing Page for ShahJahan's Mo: Mo:</figcaption>
+					<ul class="tech-stack">
+					  <li>HTML5</li>
+					  <li>CSS</li>
+					  <li>Flexbox</li>
+					  <li>Grid</li>
+					</ul>
+				  </figure>
+				</a>
+		  
+				<a class="project-link" href="https://codepen.io/AbdQadir/pen/qpKMwb?editors=1010" target="_blank">
+				  <figure class="project-tile">
+					<div class="img-wrapper">
+					  <img src="https://github.com/AbdQadir/abdqadir.github.io/blob/master/Wikipedia%20Viewer%20Project.png?raw=true" alt="The Wikipedia Viewer Project image">
+					</div>
+		  
+					<figcaption class="project-title">The Wikipedia Viewer</figcaption>
+					<ul class="tech-stack">
+					  <li>HTML5</li>
+					  <li>CSS</li>
+					  <li>Javascript</li>
+					  <li>jQuery</li>
+					  <li>AJAX</li>
+					</ul>
+				  </figure>
+				</a>
+		  
+				<a class="project-link" href="https://codepen.io/AbdQadir/pen/mpmgwE" target="_blank">
+				  <figure class="project-tile">
+					<div class="img-wrapper">
+					  <img src="https://github.com/AbdQadir/abdqadir.github.io/blob/master/Weather%20App%20Image.png?raw=true" alt="The Weather App Image">
+					</div>
+		  
+					<figcaption class="project-title">The Weather App</figcaption>
+					<ul class="tech-stack">
+					  <li>HTML5</li>
+					  <li>Bootstrap</li>
+					  <li>Javascript</li>
+					  <li>jQuery</li>
+					  <li>AJAX</li>
+					</ul>
+				  </figure>
+				</a>
+		  
+				<a class="project-link" href="https://codepen.io/AbdQadir/pen/ZvWEgL" target="_blank">
+				  <figure class="project-tile">
+					<div class="img-wrapper">
+					  <img src="https://github.com/AbdQadir/abdqadir.github.io/blob/master/Inspirational%20Quote%20Generator.png?raw=true" alt="An Inspirational Quote Generator App">
+					</div>
+					<figcaption class="project-title">Inspiraitonal Quote Generator</figcaption>
+					<ul class="tech-stack">
+					  <li>HTML5</li>
+					  <li>CSS</li>
+					  <li>Javascript</li>
+					  <li>jQuery</li>
+					  <li>AJAX</li>
+					</ul>
+				  </figure>
+				</a>
+		  
+				<a class="project-link" href="https://codepen.io/AbdQadir/pen/YaopEq" target="_blank">
+				  <figure class="project-tile">
+					<div class="img-wrapper">
+					  <img src="https://github.com/AbdQadir/abdqadir.github.io/blob/master/Calculator%20Powered%20with%20javascript.png?raw=true" alt="Javascript Powered Calculator Image">
+					</div>
+		  
+					<figcaption class="project-title">Calculator powered by Javascript</figcaption>
+					<ul class="tech-stack">
+					  <li>HTML5</li>
+					  <li>CSS</li>
+					  <li>Flexbox</li>
+					  <li>Javascript</li>
+					  <li>jQuery</li>
+					  <li>AJAX</li>
+					</ul>
+				  </figure>
+				</a>
+		  
+				<a class="project-link" href="https://codepen.io/AbdQadir/pen/MPXJOW?editors=1100" target="_blank">
+				  <figure class="project-tile">
+					<div class="img-wrapper">
+					  <img src="https://github.com/AbdQadir/abdqadir.github.io/blob/master/Survey%20Form%20Image.png?raw=true" alt="Responsive Sample Survey Form Project image">
+					</div>
+					<figcaption class="project-title">Fully responsive sample survey form</figcaption>
+					<ul class="tech-stack">
+					  <li>HTML5</li>
+					  <li>CSS</li>
+					  <li>Flexbox</li>
+					</ul>
+				  </figure>
+				</a>
+			  </section>
+		  
+			</section>
+		  
+			<section class="main-section" id="contact">
+			  <header class="section-header">
+				<h2 class="section-title" id="contacts-title">Contacts</h2>
+				<div id="call2action-wrapper">
+				  <p id="call2action">Do you have a project you want to discuss, or just want to be in touch? Let’s have a chat.</p>
+				</div>
+			  </header>
+			  <section id="contact-options">
+				<section id="email-form-section">
+				  <div class="contacts-head-wrapper">
+					<p id="email-form-heading">Via an email</p>
+				  </div>
+				  <form id="contact-form">
+					<div class="form-item">
+					  <div class="label">
+						<label id="name-label" for="name">Name:</label>
+					  </div>
+					  <div class="entry">
+						<input name="name" type="text" class="entry-field" id="name" placeholder="Enter your name here" required>
+					  </div>
+					</div>
+					<div class="form-item">
+					  <div class="label">
+						<label id="email-label" for="email">Email:</label>
+					  </div>
+					  <div class="entry">
+						<input name="email" type="email" class="entry-field" id="email" placeholder="Enter your email here" required>
+					  </div>
+					</div>
+					<div class="form-item">
+					  <div class="label">
+						<label id="message-label" for="message">Message:</label>
+					  </div>
+					  <div class="entry">
+						<textarea name="message" class="entry-field" id="message" style="height:130px;" placeholder="Enter your message here" required></textarea>
+					  </div>
+					</div>
+					<button id="submit" type="submit">Send</button>
+				  </form>
+				</section>
+				<section id="social-media-section">
+				  <div class="contacts-head-wrapper">
+					<p id="social-media-heading">or Let's Socialize <i class="far fa-smile-wink"></i></p>
+				  </div>
+				  <div id="social-wrapper">
+					<section id="social-icons-section">
+					  <a class="social-icon social-media-link" id="profile-link" href="https://github.com/AbdQadir" target="_blank"> 
+					<i class="fab fa-github-square"></i>
+				  </a>
+					  <a class="social-icon social-media-link" id="fb-profile-link" href="https://www.facebook.com/roshan.ali.39794?ref=bookmarks" target="_blank">
+					<i class="fab fa-facebook-square"></i>
+				  </a>
+					  <a class="social-icon social-media-link" id="fcc-profile-link" href="https://www.freecodecamp.org/abd.qadir" target="_blank">
+					<i class="fab fa-free-code-camp"></i>
+				  </a>
+					  <a class="social-icon social-media-link" id="linkedin-profile-link" href="https://www.linkedin.com/in/mohammad-kadir-84bb7a14b/" target="_blank">
+					<i class="fab fa-linkedin"></i>
+				  </a>
+					</section>
+				  </div>
+		  
+				</section>
+			  </section>
+			  <footer>
+				<div id="copyright-wrapper">
+				  <p>All rights reserved &copy;Abd. Qadir 2018</p>
+				</div>
+			  </footer>
+			</section>
+		  </main>
+		  <script>
+			particlesJS("particles-js",{
+				"particles": {
+					"number": {
+					"value": 100,
+					"density": {
+						"enable": true,
+						"value_area": 800
+					}
+					},
+					"color": {
+					"value": "#000000"
+					},
+					"shape": {
+					"type": "edge",
+					"stroke": {
+						"width": 0,
+						"color": "#000000"
+					},
+					"polygon": {
+						"nb_sides": 5
+					},
+					"image": {
+						"src": "img/github.svg",
+						"width": 100,
+						"height": 100
+					}
+					},
+					"opacity": {
+					"value": 0,
+					"random": false,
+					"anim": {
+						"enable": false,
+						"speed": 1,
+						"opacity_min": 0.1,
+						"sync": false
+					}
+					},
+					"size": {
+					"value": 2,
+					"random": true,
+					"anim": {
+						"enable": false,
+						"speed": 40,
+						"size_min": 0.1,
+						"sync": false
+					}
+					},
+					"line_linked": {
+					"enable": false,
+					"distance": 150,
+					"color": "#020000",
+					"opacity": 0.4,
+					"width": 1
+					},
+					"move": {
+					"enable": true,
+					"speed": 0.3,
+					"direction": "none",
+					"random": false,
+					"straight": false,
+					"out_mode": "bounce",
+					"bounce": false,
+					"attract": {
+						"enable": true,
+						"rotateX": 600,
+						"rotateY": 1122.388442605866
+					}
+					}
+				},
+				"interactivity": {
+					"detect_on": "window",
+					"events": {
+					"onhover": {
+						"enable": true,
+						"mode": "bubble"
+					},
+					"onclick": {
+						"enable": true,
+						"mode": "bubble"
+					},
+					"resize": true
+					},
+					"modes": {
+					"grab": {
+						"distance": 400,
+						"line_linked": {
+						"opacity": 1
+						}
+					},
+					"bubble": {
+						"distance": 311.6883116883117,
+						"size": 28,
+						"duration": 2,
+						"opacity": 0.8,
+						"speed": 3
+					},
+					"repulse": {
+						"distance": 320,
+						"duration": 0.4
+					},
+					"push": {
+						"particles_nb": 4
+					},
+					"remove": {
+						"particles_nb": 2
+					}
+					}
+				},
+				"retina_detect": true
+				});
+		  </script>
+	</body>
+</html>
